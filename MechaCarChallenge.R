@@ -2,8 +2,8 @@
 rm(list=ls())
 
 #Import csv files and dplyr library
-mecha <- read.csv('MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
-msusp <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
+mecha <- read.csv('Resources/Datasets/MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
+msusp <- read.csv('Resources/Datasets/Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
 library(dplyr)
 
 #D1: Create a linear model of mpg compared to other variables in 'mecha' dataset
