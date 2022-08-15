@@ -18,5 +18,7 @@
 * Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
   - While the result of the aggregate t-test is close to the standard allowing for rejection of the null hypothesis, currently the p-value is 0.06. This is slightly higher than the standard value of 0.05, which means we are NOT able to reject the null hypothesis of this t-test. In other words, we cannot say with true confidence that the mean of an aggregate sample is not 1500.
   - Similarly the t-tests for lots 1 and 2 do not allowing for rejection of the null hypothesis. Their p-values of 1 and 0.61 respectively are far higher than the standard value of 0.05. Only the t-test on lot 3 vehicles has a p-value of 0.04, which does allow us to reject the null hypothesis and conclude the true mean based on the lot 3 sample is not equal to 1500.
+  - The results of each t-test can be found in the picture below.
+![t-tests](Resources/Images/suspension_t_test.png)
   
-## 
+## Study Design: MechaCar vs Competition
